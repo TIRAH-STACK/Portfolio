@@ -39,3 +39,12 @@ th { background-color: #f0f0f0; }
 
 .btn { display: inline-block; padding: 10px 20px; background: #88c0d0; color: white; text-decoration: none; border-radius: 5px; margin-top: 20px; }
 
+/* Progress Bar Container */
+.skill-wrapper { margin-bottom: 20px; }
+.skill-label { display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 5px; color: #5e81ac; }
+
+.progress-bg { background: #e5e9f0; height: 12px; border-radius: 10px; overflow: hidden; border: 1px solid #d8dee9; }
+.progress-fill { height: 100%; background: #88c0d0; transition: width 1s ease-in-out; border-radius: 10px; }
+
+/* Kesan Hacking */
+.progress-fill:hover { background: #5e81ac; box-shadow: 0 0 8px #88c0d0; }
