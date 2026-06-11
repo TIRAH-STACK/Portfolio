@@ -58,3 +58,14 @@ th { background-color: #f0f0f0; }
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
 }
+
+.img-placeholder {
+    background: #e5e9f0;
+    border: 2px dashed #88c0d0;
+    color: #4c566a;
+    padding: 40px;
+    text-align: center;
+    margin: 15px 0;
+    border-radius: 8px;
+    font-style: italic;
+}
