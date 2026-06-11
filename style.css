@@ -48,3 +48,13 @@ th { background-color: #f0f0f0; }
 
 /* Kesan Hacking */
 .progress-fill:hover { background: #5e81ac; box-shadow: 0 0 8px #88c0d0; }
+
+
+.project-card {
+    background: #f8f9fa;
+    border-left: 5px solid #88c0d0;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
