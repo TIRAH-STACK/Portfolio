@@ -17,3 +17,19 @@
     </main>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="style.css"></head>
+<body>
+    <div class="container">
+        <h1>NUR ATHIRAH SYAHIRAH BINTI MOHD RIZAL</h1>
+        <h3>FINAL YEAR COMPUTER SCIENCE STUDENT | SETTING MY SIGHT ON SECURITY OPERATION CENTER</h3>
+        <p><strong>CORE FOCUS:</strong> NETWORK SECURITY • LOG ANALYSIS • DIGITAL FORENSICS • PENETRATION TESTING • OPERATING SYSTEM</p>
+        
+        <div style="width: 200px; height: 200px; background: #eee; margin: 20px 0;">[GAMBAR ANDA DI SINI]</div>
+        
+        <a href="skills.html" class="btn">View Technical Skills &raquo;</a>
+    </div>
+</body>
+</html>
