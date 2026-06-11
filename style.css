@@ -1,0 +1,15 @@
+body {
+    background-color: #fdf6f7; /* Pastel Pink */
+    color: #4a4a4a;
+    font-family: 'Courier New', Courier, monospace; /* Ciri hacking */
+}
+
+nav {
+    background: #d1e7dd; /* Pastel Green */
+    padding: 1rem;
+}
+
+h1 {
+    color: #88c0d0; /* Soft Blue */
+    text-shadow: 1px 1px #000;
+}
