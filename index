@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>My Cyber Portfolio</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="career.html">Career</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+    <main>
+        <h1>Welcome to My Terminal</h1>
+        <p>Proactive Defense & Threat Hunting enthusiast.</p>
+    </main>
+</body>
+</html>
