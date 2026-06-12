@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Gaya Kad Moden untuk Strategi Pembangunan */
+        .grid-strategy { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0; }
+        .strategy-card { background: #f4f7f6; padding: 20px; border-radius: 12px; border-left: 5px solid #88c0d0; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .strategy-card h4 { margin-top: 0; color: #2e3440; }
+        .strategy-card p { font-size: 0.9rem; color: #4c566a; margin-bottom: 0; }
+    </style>
 </head>
 <body>
 
     <!-- Sidebar Navigation -->
-   <div class="sidebar">
+    <div class="sidebar">
         <a href="index.html" class="nav-item">🏠</a>
         <a href="career-exploration.html" class="nav-item">🚀</a>
         <a href="skills.html" class="nav-item active">👥</a>
@@ -15,13 +23,6 @@
         <a href="certificates.html" class="nav-item">⚙️</a>
         <a href="reflection.html" class="nav-item">📝</a>
     </div>
-
-    <footer style="margin-top: 50px; text-align: center; border-top: 1px solid #ccc; padding-top: 20px;">
-        <p><strong>Connect with me:</strong></p>
-        <a href="URL_LINKEDIN_ANDA" target="_blank">LinkedIn</a> | 
-        <a href="https://github.com/tirah-stack" target="_blank">GitHub</a> | 
-        <a href="mailto:nurathirahsyahirah03@gmail.com">Email</a>
-    </footer>
 
     <!-- Main Content -->
     <div class="main-content">
@@ -77,19 +78,27 @@
                 <div class="progress-bg"><div class="progress-fill" style="width: 88%;"></div></div>
             </div>
 
-            <h2>Gap Analysis</h2>
-            <table>
-                <tr><th>Skill Area</th><th>Current Status</th><th>Target</th><th>The Gap</th></tr>
-                <tr><td>Log Analysis (SIEM)</td><td>Minor</td><td>Advanced</td><td>Lack of hands-on experience in complex queries.</td></tr>
-                <tr><td>Networking (Wireshark)</td><td>Intermediate</td><td>Advanced</td><td>Improve speed in malicious pattern identification.</td></tr>
-                <tr><td>OS Security (Linux)</td><td>Intermediate</td><td>Proficient</td><td>Master advanced hardening techniques.</td></tr>
-                <tr><td>Incident Response</td><td>Minor</td><td>Practical</td><td>Lack of end-to-end handling experience.</td></tr>
-                <tr><td>Communication</td><td>Good</td><td>Professional</td><td>Need technical writing for Post-Mortems.</td></tr>
-            </table>
-            
-            <p><em>Beyond tool proficiency, my focus is on transforming complex data into actionable insights...</em></p>
+            <h2 style="margin-top: 40px;">Professional Development Strategy</h2>
+            <p><em>Beyond tool proficiency, my focus is on transforming complex data into actionable insights. Leveraging my foundation in networking and OS security, I am refining my SIEM and reporting skills to effectively bridge the gap between technical threat detection and business security impact.</em></p>
 
-            <a href="career.html" class="btn">Next: Career Timeline &raquo;</a>
+            <div class="grid-strategy">
+                <div class="strategy-card">
+                    <h4> SIEM & Data Analytics</h4>
+                    <p>Expanding mastery in complex query logic to enhance detection accuracy and reduce false positives.</p>
+                </div>
+                <div class="strategy-card">
+                    <h4> Incident Lifecycle</h4>
+                    <p>Deepening practical experience in end-to-end incident handling and professional post-mortem documentation.</p>
+                </div>
+                <div class="strategy-card">
+                    <h4> Systems Hardening</h4>
+                    <p>Advancing Linux security techniques to align technical operations with industry compliance standards.</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 40px; text-align: center;">
+                <a href="career.html" class="btn">Next: Career Timeline &raquo;</a>
+            </div>
 
             <!-- Footer -->
             <footer style="margin-top: 50px; text-align: center; border-top: 1px solid #ccc; padding-top: 20px;">
