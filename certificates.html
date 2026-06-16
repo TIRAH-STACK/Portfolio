@@ -1,67 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS untuk grid yang kemas */
+        .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .cert-card { background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .img-placeholder { margin-bottom: 15px; border-radius: 8px; overflow: hidden; }
+        .btn-next { display: inline-block; padding: 12px 30px; background: #88c0d0; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 40px; }
+    </style>
 </head>
 <body>
 
-<div class="sidebar">
+    <div class="sidebar">
         <a href="index.html" class="nav-item">🏠</a>
-        <a href="career-exploration.html" class="nav-item active">🚀</a>
+        <a href="career-exploration.html" class="nav-item">🚀</a>
         <a href="skills.html" class="nav-item">👥</a>
         <a href="career.html" class="nav-item">👤</a>
         <a href="projects.html" class="nav-item">📊</a>
-        <a href="certificates.html" class="nav-item">⚙️</a>
+        <a href="certificates.html" class="nav-item active">⚙️</a>
         <a href="reflection.html" class="nav-item">📝</a>
     </div>
 
     <div class="main-content">
         <div class="container">
-            
             <h2>Certifications & Awards</h2>
 
             <div class="cert-grid">
+                <!-- Sila pastikan nama fail di GitHub adalah sama dengan src di bawah -->
                 <div class="cert-card">
-                    <div class="img-placeholder"><img src="CCNA-_Switching-_Routing-_and_Wireless_Essentials_certificate_nurathirahsyahirah03-gmail-com_5d6a9007-ea06-4034-9449-c91ef2d17054.jpg" alt="CCNA" style="width:100%; height:auto;"></div>
+                    <div class="img-placeholder"><img src="ccna_cert.jpg" alt="CCNA" style="width:100%;"></div>
                     <h4>CCNA: Switching, Routing, and Wireless Essentials</h4>
-                    <p>Successfully completed the CCNA course via Cisco Networking Academy, gaining essential skills in switching, routing, and wireless network technologies.</p>
+                    <p>Successfully completed the CCNA course via Cisco Networking Academy.</p>
                 </div>
 
                 <div class="cert-card">
-                    <div class="img-placeholder"><img src="sijil network.png" alt="Forziq" style="width:100%; height:auto;"></div>
+                    <div class="img-placeholder"><img src="sijil_network.png" alt="Networking" style="width:100%;"></div>
                     <h4>Computer Networking Course (Forziq Sdn Bhd)</h4>
-                    <p>Enhanced technical networking proficiency through a dedicated course organized by the Faculty of Informatics and Computing, UniSZA, and Forziq Sdn Bhd.</p>
+                    <p>Technical networking proficiency organized by UniSZA and Forziq Sdn Bhd.</p>
                 </div>
 
                 <div class="cert-card">
-                    <div class="img-placeholder"><img src="NUR ATHIRAH SYAHIRAH BINTI MOHD RIZAL.png" alt="Sem 1" style="width:100%; height:auto;"></div>
+                    <div class="img-placeholder"><img src="dean_list_sem1.png" alt="Sem 1" style="width:100%;"></div>
                     <h4>Dean's List (Semester 1)</h4>
-                    <p>Recognized as one of the best students of the semester for academic excellence.</p>
+                    <p>Recognized for academic excellence during the first semester.</p>
                 </div>
 
                 <div class="cert-card">
-                    <div class="img-placeholder"><img src="NUR ATHIRAH SYAHIRAH BINTI MOHD RIZAL (1).png" alt="Sem 2" style="width:100%; height:auto;"></div>
+                    <div class="img-placeholder"><img src="dean_list_sem2.png" alt="Sem 2" style="width:100%;"></div>
                     <h4>Dean's List (Semester 2)</h4>
-                    <p>Listed among the top students of the semester for outstanding academic performance.</p>
+                    <p>Recognized for outstanding academic performance during the second semester.</p>
                 </div>
 
                 <div class="cert-card">
-                    <div class="img-placeholder"><img src="Z2H Robopro certificate.png" alt="Z2H" style="width:100%; height:auto;"></div>
+                    <div class="img-placeholder"><img src="z2h_robopro.png" alt="Z2H" style="width:100%;"></div>
                     <h4>Multimedia Committee: 'From Zero to Hero'</h4>
-                    <p>Served as the Multimedia Committee for the 'From Zero to Hero' program, organized by Kelab RoboPRO UniSZA, contributing to the event's technical success.</p>
+                    <p>Contributed as Multimedia Committee for the program organized by Kelab RoboPRO UniSZA.</p>
                 </div>
 
                 <div class="cert-card">
-                    <div class="img-placeholder"><img src="Sijil RoboPro.png" alt="Tinkercad" style="width:100%; height:auto;"></div>
+                    <div class="img-placeholder"><img src="sijil_robopro.png" alt="Tinkercad" style="width:100%;"></div>
                     <h4>Multimedia Committee: Tinkercad Workshop</h4>
-                    <p>Contributed as the Multimedia Committee for the Tinkercad Workshop organized by Kelab RoboPRO UniSZA on 29 November 2025.</p>
+                    <p>Contributed as Multimedia Committee for the Tinkercad Workshop (29 Nov 2025).</p>
                 </div>
+            </div>
+
+            <!-- Butang Next ke Reflection -->
+            <div style="text-align: center;">
+                <a href="reflection.html" class="btn-next">Next: Reflection &raquo;</a>
             </div>
 
             <footer style="margin-top: 50px; text-align: center; border-top: 1px solid #ccc; padding-top: 20px;">
                 <p>Connect with me:</p>
                 <a href="URL_LINKEDIN_ANDA" target="_blank">LinkedIn</a> | 
-                <a href="https://github.com/tirah-stack" target="_blank">GitHub</a> |
+                <a href="https://github.com/tirah-stack" target="_blank">GitHub</a> | 
                 <a href="mailto:nurathirahsyahirah03@gmail.com">Email</a>
             </footer>
 
