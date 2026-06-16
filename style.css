@@ -2,7 +2,7 @@
 body {
     background-color: #fdf6f7;
     color: #4a4a4a;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
 }
@@ -46,6 +46,7 @@ body {
     background: #f0f4f8;
     width: 100%;
     text-align: center;
+    border-left: 4px solid #4a90e2;
 }
 
 .main-content {
@@ -54,14 +55,20 @@ body {
 }
 
 /* --- Komponen Portfolio --- */
-h1 { color: #88c0d0; text-shadow: 1px 1px #000; }
+h1 { color: #88c0d0; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); }
+
+/* Gambar Responsif */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
 /* Progress Bar */
 .skill-wrapper { margin-bottom: 20px; }
 .skill-label { display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 5px; color: #5e81ac; }
 .progress-bg { background: #e5e9f0; height: 12px; border-radius: 10px; overflow: hidden; border: 1px solid #d8dee9; }
 .progress-fill { height: 100%; background: #88c0d0; transition: width 1s ease-in-out; border-radius: 10px; }
-.progress-fill:hover { background: #5e81ac; box-shadow: 0 0 8px #88c0d0; }
 
 /* Tables & Cards */
 table { width: 100%; border-collapse: collapse; margin-top: 20px; }
@@ -81,7 +88,7 @@ th { background-color: #f0f0f0; }
     background: #e5e9f0;
     border: 2px dashed #88c0d0;
     color: #4c566a;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     margin: 15px 0;
     border-radius: 8px;
@@ -104,4 +111,35 @@ th { background-color: #f0f0f0; }
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-.btn { display: inline-block; padding: 10px 20px; background: #88c0d0; color: white; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+.btn { 
+    display: inline-block; 
+    padding: 10px 20px; 
+    background: #88c0d0; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    margin-top: 20px; 
+    transition: background 0.3s;
+}
+.btn:hover { background: #76a8b7; }
+
+/* --- Responsive Design (Mobile) --- */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 5px;
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    }
+    .main-content {
+        margin-left: 0;
+        padding: 10px;
+        padding-bottom: 80px; /* Ruang untuk sidebar di bawah */
+    }
+    .container { padding: 15px; }
+}
