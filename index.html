@@ -4,6 +4,30 @@
     <meta charset="UTF-8">
     <title>My Cyber Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .profile-img-container { 
+            width: 200px; 
+            height: 200px; 
+            margin: 20px 0; 
+            border: 3px solid #88c0d0; 
+            border-radius: 50%; 
+            overflow: hidden; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+        }
+        .btn { 
+            display: inline-block; 
+            padding: 12px 25px; 
+            background: #88c0d0; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            font-weight: bold; 
+            transition: background 0.3s;
+        }
+        .btn:hover { background: #76a8b7; }
+    </style>
 </head>
 <body>
 
@@ -28,8 +52,9 @@
             <h3>FINAL YEAR COMPUTER SCIENCE STUDENT | SETTING MY SIGHT ON SECURITY OPERATION CENTER</h3>
             <p><strong>CORE FOCUS:</strong> NETWORK SECURITY • LOG ANALYSIS • DIGITAL FORENSICS • PENETRATION TESTING • OPERATING SYSTEM</p>
             
-            <div style="width: 200px; height: 200px; background: #eee; margin: 20px 0; border: 2px dashed #88c0d0; display: flex; align-items: center; justify-content: center; text-align: center; overflow: hidden;">
-                <img src="profile.png" alt="Profile Picture" style="width:100%; height:100%; object-fit:cover;">
+            <!-- Gambar Profil -->
+            <div class="profile-img-container">
+                <img src="profile.png" alt="Nur Athirah Syahirah" style="width:100%; height:100%; object-fit:cover;">
             </div>
             
             <a href="skills.html" class="btn">View Technical Skills &raquo;</a>
